@@ -18,6 +18,8 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - ninja
+  run:
+    - zlib
 
 test:
   commands:
