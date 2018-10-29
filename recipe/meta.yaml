@@ -15,15 +15,7 @@ build:
 
 requirements:
   build:
-    - {{ compiler('cxx') }}
     - cmake
-    - ninja
-    - {{ pin_compatible('python', lower_bound='2.7') }}
-    - boost
-  host:
-    - zlib
-  run:
-    - zlib
 
 test:
   commands:
