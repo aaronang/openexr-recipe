@@ -18,6 +18,8 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - ninja
+  host:
+    - zlib
   run:
     - zlib
 
