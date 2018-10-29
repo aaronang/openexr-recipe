@@ -1,2 +1,3 @@
-# openexr-recipe
-Conda recipe for OpenEXR
+# OpenEXR Recipe
+
+Conda recipe for OpenEXR.
