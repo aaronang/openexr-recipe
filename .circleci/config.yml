@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: conda/miniconda3
+    steps:
+      - checkout
+      - run: |
+          conda install --yes conda-build
+          conda update --yes conda conda-build
